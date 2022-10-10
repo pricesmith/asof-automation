@@ -13,7 +13,10 @@ def simple_docker_dag():
     amass_enum = DockerOperator(
         task_id         = 'amass_enum',
         image           = 'caffix/amass',
-        command         = 'enum -share -d example.com',
+        container_name  = 'amass_container',
+        api_version     = 'auto',
+        auto_remove     = True,
+        command         = 'enum -share -d example.com', #customize logic in custom operator
         output_dir_path = '/.config/amass',
         docker_url      = 'unix://var/run/docker.sock',
         network_mode    = 'bridge',

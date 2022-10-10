@@ -1,0 +1,20 @@
+[2022-10-10T16:15:54.946+0000] {processor.py:156} INFO - Started process (PID=116) to work on /opt/airflow/dags/group_dag.py
+[2022-10-10T16:15:54.958+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-10-10T16:15:55.004+0000] {logging_mixin.py:117} INFO - [2022-10-10T16:15:55.002+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-10-10T16:16:00.858+0000] {processor.py:768} INFO - DAG(s) dict_keys(['group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-10-10T16:16:16.446+0000] {logging_mixin.py:117} INFO - [2022-10-10T16:16:16.445+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:group_dag
+[2022-10-10T16:16:16.546+0000] {logging_mixin.py:117} INFO - [2022-10-10T16:16:16.546+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:group_dag
+[2022-10-10T16:16:16.609+0000] {logging_mixin.py:117} INFO - [2022-10-10T16:16:16.608+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:group_dag
+[2022-10-10T16:16:16.609+0000] {logging_mixin.py:117} INFO - [2022-10-10T16:16:16.609+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-10T16:16:16.720+0000] {logging_mixin.py:117} INFO - [2022-10-10T16:16:16.720+0000] {dag.py:2594} INFO - Creating ORM DAG for group_dag
+[2022-10-10T16:16:16.848+0000] {logging_mixin.py:117} INFO - [2022-10-10T16:16:16.847+0000] {dag.py:3328} INFO - Setting next_dagrun for group_dag to 2022-10-09T00:00:00+00:00, run_after=2022-10-10T00:00:00+00:00
+[2022-10-10T16:16:17.033+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/group_dag.py took 29.201 seconds
+[2022-10-10T16:16:52.531+0000] {processor.py:156} INFO - Started process (PID=122) to work on /opt/airflow/dags/group_dag.py
+[2022-10-10T16:16:53.082+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-10-10T16:16:53.195+0000] {logging_mixin.py:117} INFO - [2022-10-10T16:16:53.194+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-10-10T16:17:03.127+0000] {processor.py:768} INFO - DAG(s) dict_keys(['group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-10-10T16:18:18.403+0000] {processor.py:156} INFO - Started process (PID=124) to work on /opt/airflow/dags/group_dag.py
+[2022-10-10T16:18:18.703+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/group_dag.py for tasks to queue
+[2022-10-10T16:18:18.707+0000] {logging_mixin.py:117} INFO - [2022-10-10T16:18:18.706+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/group_dag.py
+[2022-10-10T16:18:20.963+0000] {processor.py:768} INFO - DAG(s) dict_keys(['group_dag']) retrieved from /opt/airflow/dags/group_dag.py
+[2022-10-10T16:18:30.407+0000] {logging_mixin.py:117} INFO - [2022-10-10T16:18:30.406+0000] {process_utils.py:256} INFO - Waiting up to 5 seconds for processes to exit...

@@ -61,7 +61,7 @@ x-airflow-common:
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
   volumes:
     - ./src/dags:/opt/airflow/dags
-    - ./src/logs:/opt/airflow/logs
+    - ./logs:/opt/airflow/logs
     - ./src/plugins:/opt/airflow/plugins
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
